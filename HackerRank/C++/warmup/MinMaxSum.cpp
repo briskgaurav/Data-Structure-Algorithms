@@ -10,7 +10,7 @@ vector<string> split(const string &);
 
 void miniMaxSum(vector<int> arr) {
     sort(arr.begin(),arr.end());
-int maxsum=0,minisum=0;
+long maxsum=0,minisum=0;
 for(int i=0;i<arr.size();i++){
     maxsum=maxsum+arr[i+1];
 }
